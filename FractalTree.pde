@@ -17,7 +17,7 @@ public void draw()
   drawBranches(320,380,100,3*Math.PI/2);  
   if (colorz == true){
     stroke(10+f,230-f,0);
-    f++;
+    f+=2;
   
 
   if(f > 200){
@@ -27,7 +27,7 @@ public void draw()
   }
   if(colorz == false){
     stroke(210-f,30+f,0);
-    f++;
+    f+=2;
     if(f > 200){
     f=0;
     colorz = true;
